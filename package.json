@@ -1,0 +1,48 @@
+{
+  "name": "@0y0/gitbook-cli",
+  "version": "1.0.0-rc.1",
+  "description": "A Gitbook CLI",
+  "main": "bin/gitbook.js",
+  "bin": {
+    "gitbook": "./bin/gitbook.js"
+  },
+  "repository": "https://github.com/o0y0o/gitbook-cli",
+  "author": "Jason Chung <shiningjason1989@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "gitbook",
+    "book",
+    "document",
+    "cli",
+    "terminal"
+  ],
+  "scripts": {
+    "format": "prettier --write bin/**/*.js",
+    "lint": "eslint bin/**/*.js",
+    "pkg": "[ $(yarn info $npm_package_name version) != $npm_package_version ] && yarn publish || echo Skip publishing due to v$npm_package_version exist"
+  },
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@0y0/eslint-config-vanilla": "^1.1.2",
+    "@babel/core": "^7.13.1",
+    "eslint": "^7.20.0",
+    "prettier": "^2.2.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@0y0/vanilla"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
