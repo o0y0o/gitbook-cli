@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+const moduleAlias = require('module-alias')
+moduleAlias.addAlias('graceful-fs', require.resolve('graceful-fs'))
+
 const { commands } = require('gitbook')
 const yargs = require('yargs')
 
