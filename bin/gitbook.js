@@ -31,4 +31,5 @@ for (const cmd of commands) {
     }
   )
 }
-yargs.strict(true).help().argv
+
+yargs.strict(true).help().argv // eslint-disable-line no-unused-expressions
