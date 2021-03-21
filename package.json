@@ -31,7 +31,7 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "@0y0/eslint-config-vanilla": "^1.2.2",
+    "@0y0/eslint-config-vanilla": "^1.2.3",
     "eslint": "^7.22.0",
     "prettier": "^2.2.1"
   },
