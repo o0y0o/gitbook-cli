@@ -33,7 +33,7 @@
   "devDependencies": {
     "@0y0/eslint-config-vanilla": "^1.2.4",
     "eslint": "^7.26.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.3.0"
   },
   "eslintConfig": {
     "extends": [
