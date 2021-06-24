@@ -1,6 +1,6 @@
 {
   "name": "@0y0/gitbook-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Gitbook CLI",
   "main": "bin/gitbook.js",
   "bin": {
@@ -28,12 +28,12 @@
     "gitbook": "^3.2.3",
     "graceful-fs": "^4.2.6",
     "module-alias": "^2.2.2",
-    "yargs": "^16.2.0"
+    "yargs": "^17.0.1"
   },
   "devDependencies": {
     "@0y0/eslint-config-vanilla": "^1.2.4",
     "eslint": "^7.29.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.1"
   },
   "eslintConfig": {
     "extends": [
