@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "gitbook": "^3.2.3",
-    "graceful-fs": "^4.2.6",
+    "graceful-fs": "^4.2.9",
     "module-alias": "^2.2.2",
     "yargs": "^17.0.1"
   },
