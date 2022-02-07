@@ -1,6 +1,6 @@
 {
   "name": "@0y0/gitbook-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Gitbook CLI",
   "main": "bin/gitbook.js",
   "bin": {
