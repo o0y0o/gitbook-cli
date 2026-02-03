@@ -3566,10 +3566,10 @@ mkdirp@0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-module-alias@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
-  integrity sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==
+module-alias@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.3.3.tgz#88171c9221f937264cd079d6e971414d289945b2"
+  integrity sha512-vN8YITf48QuzKHiWGGFRnf+kM8xcFtUZ5Ba9FeiVkzwp1RS09nIwX7Ac7wWa5gfvyDhwF5Cy/7/21hqG0rqgUQ==
 
 moment@2.13.0:
   version "2.13.0"
